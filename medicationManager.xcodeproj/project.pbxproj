@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FA01F51A26B1799E00C980C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01F51926B1799E00C980C9 /* AppDelegate.swift */; };
 		FA01F51C26B1799E00C980C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01F51B26B1799E00C980C9 /* SceneDelegate.swift */; };
-		FA01F51E26B1799E00C980C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01F51D26B1799E00C980C9 /* ViewController.swift */; };
 		FA01F52126B1799E00C980C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA01F51F26B1799E00C980C9 /* Main.storyboard */; };
 		FA01F52326B1799E00C980C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA01F52226B1799E00C980C9 /* Assets.xcassets */; };
 		FA01F52626B1799E00C980C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA01F52426B1799E00C980C9 /* LaunchScreen.storyboard */; };
+		FA01F52E26B1B8AB00C980C9 /* PillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01F52D26B1B8AB00C980C9 /* PillListViewController.swift */; };
+		FA01F53026B1C31200C980C9 /* Pill.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01F52F26B1C31200C980C9 /* Pill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA01F51626B1799E00C980C9 /* medicationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medicationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA01F51926B1799E00C980C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA01F51B26B1799E00C980C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA01F51D26B1799E00C980C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA01F52026B1799E00C980C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA01F52226B1799E00C980C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA01F52526B1799E00C980C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA01F52726B1799E00C980C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA01F52D26B1B8AB00C980C9 /* PillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillListViewController.swift; sourceTree = "<group>"; };
+		FA01F52F26B1C31200C980C9 /* Pill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				FA01F51926B1799E00C980C9 /* AppDelegate.swift */,
 				FA01F51B26B1799E00C980C9 /* SceneDelegate.swift */,
-				FA01F51D26B1799E00C980C9 /* ViewController.swift */,
 				FA01F51F26B1799E00C980C9 /* Main.storyboard */,
+				FA01F52D26B1B8AB00C980C9 /* PillListViewController.swift */,
+				FA01F52F26B1C31200C980C9 /* Pill.swift */,
 				FA01F52226B1799E00C980C9 /* Assets.xcassets */,
 				FA01F52426B1799E00C980C9 /* LaunchScreen.storyboard */,
 				FA01F52726B1799E00C980C9 /* Info.plist */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA01F51E26B1799E00C980C9 /* ViewController.swift in Sources */,
+				FA01F52E26B1B8AB00C980C9 /* PillListViewController.swift in Sources */,
 				FA01F51A26B1799E00C980C9 /* AppDelegate.swift in Sources */,
+				FA01F53026B1C31200C980C9 /* Pill.swift in Sources */,
 				FA01F51C26B1799E00C980C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
